@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>IMC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+   <link rel="stylesheet" href="css/css.css"> <!-- nosso css -->
+   <script src="js/main.js"></script> <!-- nosso javasript -->
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                   Lista de produtos
+            </div>     
+            <div class="card-body">
+                  <form>
+                       <div class="row">
+                           <div class="form-group col-lg-6">
+                               <label class="produtos" for="chuteira">Chuteira: 250.00 R$</label>
+                               <input type="checkbox" class="rst" id="chuteira">
+                           </div>
+
+                           <div class="form-group col-lg-6">
+                               <label class="produtos" for="boladefutebol">Bola de futebol: 80.00 R$</label>
+                               <input type="checkbox" class="rst" id="boladefutebol">
+                           </div>
+
+                           <div class="form-group col-lg-6">
+                            <label class="produtos" for="luva">Luva: 50.00 R$</label>
+                            <input type="checkbox" class="rst" id="luva">
+                           </div>
+
+                           <div class="form-group col-lg-6">
+                            <label class="produtos" for="meiao">Meião: 20.00 R$</label>
+                            <input type="checkbox" class="rst" id="meiao">
+                           </div>
+
+                           <div class="form-group col-lg-6">
+                            <label class="produtos" for="capacete">Capacete: 120.00 R$</label>
+                            <input type="checkbox" class="rst" id="capacete">
+                           </div>
+
+                           <div class="form-group col-lg-6">
+                            <label class="produtos" for="boladebasquete">Bola de basquete: 90.00 R$</label>
+                            <input type="checkbox" class="rst" id="boladebasquete">
+                           </div>
+
+                           <div class="form-group col-lg-6">
+                            <label class="produtos" for="oculosdenatacao">Óculos de natação: 50.00 R$</label>
+                            <input type="checkbox" class="rst" id="oculosdenatacao">
+                           </div>
+
+                           <div class="form-group col-lg-6">
+                            <label class="produtos" for="oculosdesol">Óculos de sol: 20.00 R$</label>
+                            <input type="checkbox" class="rst" id="oculosdesol">
+                           </div>
+                           
+                           <div class="form-group col-lg-12">
+                               <center>
+                                 <br>
+                                 <button class="btn btn-success" type="button" onclick="calcularIMC()">Calcular</button>
+
+                               </center>
+                           </div>
+                      </div>
+                  </form>
+            </div> 
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+            <div class="card-header">
+                   Resultado
+            </div>     
+            <div class="card-body">
+                  <form>
+                       <div class="row">
+                           <div class="form-group col-lg-12">
+                               <center>
+                                 <label class="produtos" for="resultado">Valor em R$</label>
+                                 <input type="text" class="rst" id="resultado" disabled>
+                               </center>                             
+                           </div>
+                      </div>
+                  </form>
+            </div> 
+        </div>
+      </div>
+
+</body>
+</html>

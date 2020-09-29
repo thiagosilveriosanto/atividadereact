@@ -1,0 +1,43 @@
+.card-header{
+
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 40px;
+    
+}
+
+.telainicial{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.inicio{
+    
+    display: flex;
+    height: 700px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.rst{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.produtos{
+
+    font-weight: 600;
+    font-size: 20px;
+    
+}
